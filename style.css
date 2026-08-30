@@ -146,6 +146,26 @@ h2.npc-title {
   color: var(--danger);
 }
 
+.location-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.location-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.location-legend b {
+  font-size: 1.15em;
+  line-height: 1;
+}
+
 .document img {
   display: block;
   width: min(100%, 720px);

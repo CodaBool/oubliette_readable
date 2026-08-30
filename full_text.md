@@ -103,6 +103,8 @@ Escape the island or take refuge in the lighthouse.
 
 # Locations
 
+<div class="location-legend" aria-label="Location state legend"><span><b aria-hidden="true">△</b> Before Rite</span><span><b aria-hidden="true">▼</b> After Rite</span></div>
+
 ## <span class="theme-icon" aria-hidden="true"><img class="theme-light" src="rooms_title_black.webp" alt=""><img class="theme-dark" src="rooms_title_white.webp" alt=""></span> Rooms
 
 - ▼ Each bedroom has a bunk bed, toilet, sink, mirror and a barred window.
