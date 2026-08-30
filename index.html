@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <meta name="description" content="Oubliette TTRPG LH module about escaping a psych ward">
+
+    <title><!-- PAGE_TITLE --></title>
+
+    <script>
+      (() => {
+        const saved = localStorage.getItem("theme");
+        const prefersDark = matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.dataset.theme = saved || (prefersDark ? "dark" : "light");
+      })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&amp;family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&amp;family=Special+Elite&amp;display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="/style.css">
+  </head>
+
+  <body>
+    <nav
+      class="sticky-headings"
+      id="sticky-headings"
+      aria-hidden="true"
+    >
+      <div class="sticky-headings-inner"></div>
+    </nav>
+
+    <div class="site-controls">
+      <button
+        class="theme-toggle"
+        id="theme-toggle"
+        type="button"
+        aria-label="Switch to OLED dark theme"
+        title="Switch to OLED dark theme"
+      >
+        <span aria-hidden="true">☾</span>
+      </button>
+    </div>
+
+    <main class="page">
+      <article class="document">
+        <!-- MARKDOWN_CONTENT -->
+      </article>
+    </main>
+
+    <script type="module" src="/theme.js"></script>
+  </body>
+</html>

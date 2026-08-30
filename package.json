@@ -1,0 +1,14 @@
+{
+  "name": "oubliette",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^15.0.1",
+    "vite": "^8.2.2"
+  }
+}

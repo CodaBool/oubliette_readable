@@ -1,0 +1,439 @@
+:root {
+  --background: #f8f7f3;
+  --text: #171717;
+  --muted: #66635f;
+  --border: #d8d5ce;
+  --button-hover: #ece9e2;
+  --quote-background: #efede7;
+  --danger: #a71919;
+  --page-width: 1050px;
+  --reading-width: 68ch;
+}
+
+html[data-theme="dark"] {
+  --background: #000;
+  --text: #e6e6e6;
+  --muted: #aaa7a3;
+  --border: #333;
+  --button-hover: #191919;
+  --quote-background: #101010;
+  --danger: #ff6262;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: var(--text);
+  background: var(--background);
+}
+
+body {
+  min-width: 280px;
+  margin: 0;
+  color: var(--text);
+  background: var(--background);
+  font-family: "Public Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+.page {
+  width: min(calc(100% - 3rem), var(--page-width));
+  margin: 0 auto;
+  padding: 4rem 0 7rem;
+}
+
+.document > * {
+  max-width: var(--reading-width);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1,
+h2 {
+  font-family: "Special Elite", Georgia, serif;
+  font-weight: 400;
+}
+
+h1 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.15;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.document > h1:first-child {
+  margin-top: 0;
+  font-size: clamp(2.6rem, 7vw, 4.5rem);
+}
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: 1.2;
+}
+
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 0.75rem;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+u {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.12em;
+}
+
+hr {
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+
+blockquote {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  background: var(--quote-background);
+  border-left: 3px solid var(--text);
+  font-family: "Kalam", cursive;
+  font-size: 1.1em;
+  line-height: 1.45;
+}
+
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.handwritten,
+.npc-title {
+  font-family: "Kalam", cursive;
+}
+
+h2.npc-title {
+  margin-top: 2.75rem;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+.red {
+  color: var(--danger);
+}
+
+.document img {
+  display: block;
+  width: min(100%, 720px);
+  height: auto;
+  margin: 2rem auto;
+  background: #fff;
+  border: 1px solid var(--border);
+}
+
+/*
+ * Theme-specific artwork is mutually exclusive. Both variants remain hidden
+ * until the inline script in <head> sets an explicit theme on <html>.
+ * !important keeps generic image layout rules from making both visible.
+ */
+.theme-light,
+.theme-dark {
+  display: none !important;
+}
+
+html[data-theme="light"] .theme-light {
+  display: block !important;
+}
+
+html[data-theme="dark"] .theme-dark {
+  display: block !important;
+}
+
+.theme-icon {
+  display: inline-flex;
+  width: 2.7rem;
+  height: 2.7rem;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
+.theme-icon-tall {
+  height: 3.2rem;
+}
+
+.puzzle-icon {
+  width: 3.25rem;
+  height: 3.25rem;
+}
+
+.document .theme-icon img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: contain;
+  background: transparent;
+  border: 0;
+}
+
+.inline-theme-icon {
+  display: inline-flex;
+  width: 28px;
+  height: 28px;
+  margin-right: 0.35rem;
+  vertical-align: -0.42rem;
+}
+
+.document .inline-theme-icon img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: contain;
+  background: transparent;
+  border: 0;
+}
+
+.npc-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+}
+
+.npc-image {
+  display: flex;
+  flex: 0 1 16rem;
+  flex-direction: column;
+  justify-content: end;
+  padding: 0;
+  color: inherit;
+  background: transparent;
+  border: 0;
+}
+
+.document .npc-image img {
+  width: 100%;
+  height: 16rem;
+  margin: 0;
+  object-fit: contain;
+  background: transparent;
+  border: 0;
+}
+
+.npc-image span {
+  margin-top: 0.5rem;
+  font-family: "Kalam", cursive;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.rorschach-art {
+  padding: 0.75rem;
+}
+
+.site-controls {
+  position: sticky;
+  z-index: 10;
+  top: 1rem;
+  width: min(calc(100% - 2rem), calc(var(--page-width) + 5rem));
+  height: 0;
+  margin: 0 auto;
+  text-align: right;
+  pointer-events: none;
+}
+
+.sticky-headings {
+  position: fixed;
+  z-index: 8;
+  top: 0;
+  right: 0;
+  left: 0;
+  color: var(--text);
+  background: color-mix(in srgb, var(--background) 94%, transparent);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 0.35rem 1rem rgb(0 0 0 / 8%);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-100%);
+  transition:
+    opacity 120ms ease,
+    transform 160ms ease,
+    background-color 160ms ease;
+  backdrop-filter: blur(10px);
+}
+
+.sticky-headings.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sticky-headings-inner {
+  width: min(calc(100% - 3rem), var(--page-width));
+  margin: 0 auto;
+  padding: 0.35rem 4rem 0.35rem 0;
+}
+
+.sticky-heading-row {
+  max-width: var(--reading-width);
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: "Special Elite", Georgia, serif;
+  line-height: 1.25;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sticky-h1 {
+  font-size: 1.05rem;
+}
+
+.sticky-heading-row .theme-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.25rem;
+}
+
+.sticky-heading-row .theme-icon-tall,
+.sticky-heading-row .puzzle-icon {
+  height: 1.35rem;
+}
+
+.sticky-heading-row .theme-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  color: var(--text);
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  font: inherit;
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: background-color 120ms ease, transform 120ms ease;
+}
+
+.theme-toggle:hover {
+  background: var(--button-hover);
+  transform: scale(1.05);
+}
+
+.theme-toggle:focus-visible {
+  outline: 3px solid var(--danger);
+  outline-offset: 3px;
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 17px;
+  }
+
+  .page {
+    width: min(calc(100% - 2rem), var(--page-width));
+    padding-top: 2rem;
+  }
+
+  .sticky-headings-inner {
+    width: min(calc(100% - 2rem), var(--page-width));
+  }
+
+  h1 {
+    margin-top: 4rem;
+  }
+
+  hr {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .npc-gallery-paired {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  .npc-gallery-paired .npc-image {
+    min-width: 0;
+  }
+
+  .document .npc-gallery-paired .npc-image img {
+    height: clamp(10rem, 45vw, 16rem);
+  }
+}
+
+@media print {
+  :root,
+  html[data-theme="dark"] {
+    --background: #fff;
+    --text: #000;
+    --border: #aaa;
+    --quote-background: #f3f3f3;
+    --danger: #8b0000;
+  }
+
+  body {
+    font-size: 11pt;
+  }
+
+  .page {
+    width: 100%;
+    padding: 0;
+  }
+
+  .site-controls {
+    display: none;
+  }
+
+  .sticky-headings {
+    display: none;
+  }
+
+  html[data-theme] .theme-light {
+    display: block !important;
+  }
+
+  html[data-theme] .theme-dark {
+    display: none !important;
+  }
+
+  h1,
+  h2,
+  blockquote,
+  img {
+    break-inside: avoid;
+  }
+}
