@@ -9,15 +9,22 @@ fonts:
 
 # Oubliette
 
-Welcome to Crown's End psychiatric hospital, New York City's multi-billion dollar solution for undesirables.
 
-The players have been incarcerated and due to a psychotic break they've been transferred to Crown's End. An island with a renovated tuberculosis sanatorium from the 1930s, now serving as a psych ward.
 
-They don't know it yet but they've been selected for a new treatment. To survive they must overcome the resulting phenomenon.
+- ✝ Welcome to Crown's End psychiatric hospital, New York City's multi-billion dollar solution for undesirables.
+
+- ✝ The players have been incarcerated and due to a psychotic break they've been transferred to Crown's End. An island with a renovated tuberculosis sanatorium from the 1930s, now serving as a psych ward.
+
+- ⸸ They don't know it yet but they've been selected for a new treatment. To survive they must overcome the resulting phenomenon.
+
+<img class="rorschach-art" src="eye.webp" alt="eye">
+<img src="checker_infinite.gif" alt="eye" style="border: none; opacity: 0.06">
 
 <p class="handwritten"><strong>Touch Points:</strong> Silent Hill, Shutter Island, Maniac</p>
 
 <p class="handwritten"><strong>Content Warning:</strong> Catholic Blasphemy, Mental Illness, Psychiatric Institutions, Body Horror, Prison Correction Officer Presence, Incarceration</p>
+
+> "People don't just <span class="glitch-words" data-text="snap.">*snap*.</span> There is a process as observable, and often as predictable, as water coming to a boil."
 
 ---
 
@@ -34,32 +41,37 @@ The famous NYC Psychologist, **<u>Dr. Rook</u>** has purchased access to a Catho
 
 ## Dopplegänger
 
-- ▼ Once the rite begins, the ceiling of all interior spaces raises into darkness. Unseen in the darkness, **above each individual, a gibbet appears.**
+- ▼ Once the rite begins, the ceiling of all interior spaces raises into darkness. Unseen in the darkness, **above each individual, a gibbet cage appears.**
 - ▼ While indoors, each cage impossibly always hovers above its subject, even between rooms.
-- ▼ As a representation of the subject's mental issues. **Each cage contains a humanoid monstrous dopplegänger.**
-- ▼ There are 2 exceptions, **<u>Father Julian</u>** and **<u>Marcus</u>**. In their cases they <span class="red"><strong><u>transform</u></strong></span> into their **monster dopplegänger.** With their "real", more governed, version caged above them.
+- ▼ As a representation of the subject's mental issues. **Each cage contains a monstrous dopplegänger.**
+- ▼ There are 2 exceptions, **<u>Father Julian</u>** and **<u>Marcus</u>**. In their cases they <span class="red"><strong><u>transform</u></strong></span> into their **monster dopplegänger.**
 
-> The meaning here is that these 2 are enthralled by their pathology: fanaticism and narcissism, respectively.
+> See files for more details on dopplegängers
 
-- ▼ Each gibbet has a mind of its own. Seeking to cage one version of its subjects. Animating its metal bars to ensure it has one.
-- ▼ **Keep the cage dormant, hidden and mysterious.** Only seen from an item's light and only heard if the caged entity has something poignant to say. They are not an active threat but a clue to the mystery.
+- ▼ **Keep the cage dormant, hidden and mysterious.** Only seen from an item's light. They are not an active threat but instead a clue to the mystery.
+
+> If needed have a dopplegänger appear out of its cage to inflict Stress or to push players forward...No one wants to face themselves.
 
 <a href="https://lh26.codabool.com" target="_blank" rel="noopener noreferrer">character creation tables</a>
 
+> When creating characters, emphasize early that the players have been successfully treated for their mental illness. They are no longer compelled by it.
 
 # Intro
 
-It's afternoon, everyone is seated in a circle for group therapy in the Class.
+> It's afternoon, heavy rain can be heard
 
-Nurse **<u>Maya</u>**, is leading. The ward's only other patient **<u>Mouse</u>** is also present.
+Everyone is seated in a circle for group therapy in the Class.
+
+
+Nurse **<u>Maya</u>**, is leading. The ward's only other patient **<u>Mouse</u>** is also present. She is playing a marketing video from **<u>Dr. Rook</u>**. In the video he says <i>Become your best self, escape the cage</i>. A brief scene shows catholic priests packing pills. The power cuts from the storm.
+
+**<u>Maya</u>** suggests an activity that requires no power.
 
 > Present the rorschach (see files)
 
 <img class="rorschach-art" src="rorschach_alt.webp" alt="Rorschach inkblot">
 
-After therapy, she plays a marketing video by **<u>Dr. Rook</u>**. In the video he says *"become your best self, escape the cage"*. A brief scene shows catholic priests packing pills. The power cuts from a storm.
-
-**<u>Maya</u>** enthusiastically asks everyone to assemble a line in the Activity Center for their medication.
+After **<u>Maya</u>** enthusiastically asks everyone to assemble a line in the Activity Center for their medication.
 
 ## Medication
 
@@ -92,14 +104,12 @@ Once locked in their rooms. **<u>Father Julian</u>** performs the rite in the Cl
 - ∆ The island has a lighthouse and a dock.
 - ∆ In the 1930s tuberculosis treatment was sunlight. As a renovated sanatorium for consumption, most walls have windows with bars. The roof is also glass.
 - ∆ The ward is dark but every 20 seconds a sweeping light from the lighthouse goes by.
-- ∆ No patients were made known about their involvement in the <u>treatment</u>.
+- ∆ No patients were made aware about their involvement in the <u>treatment</u>.
 
 
 # PC Goal
 
 Escape the island or take refuge in the lighthouse.
-
-
 
 # Locations
 
@@ -125,8 +135,8 @@ Escape the island or take refuge in the lighthouse.
 
 ## <span class="theme-icon" aria-hidden="true"><img class="theme-light" src="seclusion_title_black.webp" alt=""><img class="theme-dark" src="seclusion_title_white.webp" alt=""></span> Seclusion
 
-- ∆ **<u>Mouse's</u>** previous room, a chess board on the bed.
-- ▼ If **<u>Mouse</u>** is dead, his dopplegänger is released here (whenever a uncaged variant dies, the remaining is released). He is **nonviolent** and impossibly skinny. Sliding into the toilet upon viewing. d4 Stress.
+- ∆ **<u>Mouse's</u>** previous room, a chess set is on the bed.
+- ▼ **<u>Mouse's</u>'s dopplegänger** can optionally be released here. He is **nonviolent** and impossibly skinny. Sliding into the toilet upon viewing. d4 Stress.
 
 ## <span class="theme-icon" aria-hidden="true"><img class="theme-light" src="admin_title_black.webp" alt=""><img class="theme-dark" src="admin_title_white.webp" alt=""></span> Admin
 
@@ -199,7 +209,7 @@ Escape the island or take refuge in the lighthouse.
 - ∆ Blinded to the risk of **<u>Dr. Rook's</u> treatment** by how much extra funding the ward will win if things go right.
 - ∆ Kept in the dark about Sacra Vita Nova.
 - ▼ Caged dopplegänger is a **nonviolent** ballerina. The top half of her head is a record player playing classical music.
-- ▼ When **<u>Marcus's</u> shoots** her, the dopplegänger cage descends and releases her. She begins her routine.
+- ▼ When **<u>Marcus</u>** performs **Reveal**, her dopplegänger cage falls and releases her. She begins her routine.
 
 <h2 class="npc-title">Father Julian</h2>
 
@@ -207,7 +217,7 @@ Escape the island or take refuge in the lighthouse.
 
 - ∆ The authorized theurgist of Sacra Vita Nova.
 - ▼ <span class="red"><strong><u>Transforms</u></strong></span> **into a fullly mechanical iron maiden on wooden chariot wheels.**
-- ▼ Heavy smoke fills the Room halls. **Mouse tries to speak to Father Julian and is decapitated.**
+- ▼ Heavy smoke fills the Room halls. **<u>Mouse</u> tries to convince <u>Father Julian</u> to reverse the rite and is decapitated.**
 - ▼ Swings the censor in a full 360 degrees. A sharp **pendulum (d8)** manifests around it. **Can be launched like a ball and chain.**
 - ▼ A metal hand gestures ICXC.
 - ▼ **Can capture a target inside (d8 Stress)**, releases immediately before the target's turn.
@@ -219,18 +229,18 @@ Escape the island or take refuge in the lighthouse.
 
 
 - ▼ **Entrance key** looped on his belt.
-- ▼ Use a latent <span class="red"><strong>transformation</strong></span>. First appears normal in a ornate chair, asking *"you feel the effects?"*.
-- ▼ Interrupt the conversation with Maya saying *"that's not Marcus!"*. Have **Marcus get upset and shoot her then frames the players.**
-- ▼ Reveal the chair to have human hands for legs, which slowly elongate while he speaks. Marcus's face receeds backward into an impossible 5ft hole.
-- ▼ The chair reaches up 10ft and pulls them up into the dark by dangling chains. The back of the chair has a human face.
-- ▼ **Marcus holds a Gun (d8)**.
-- ▼ **Reveal:** accidentally shoots a chain which lowers the still caged dopplegänger for himself (and optionally a chosen player d6 Stress).
-- ▼ **Throw:** after **Reveal**, the chair stands on hind legs, throwing Maya's cage (d8). The connected chain above whips and breaks the glass roof. Rain and glass crash down.
+- ▼ Has a latent <span class="red"><strong>transformation</strong></span>. First appears normal in a ornate chair, asking *"Who told you could leave your room?"*.
+- ▼ Interrupt the conversation with Maya shouting *"that's not Marcus!"*. Have **Marcus get upset and shoot her** and **frames the players.**
+- ▼ **The chair transforms** to have human hands for legs, which slowly elongate.
+- ▼ The chair reaches up 15ft and pulls them up into the dark by dangling chains. The back of the chair has a human face.
+- ▼ **Marcus holds a Gun (d8) and acts twice in a round.**
+- ▼ **Reveal:** an upward warning shot shoots a chain **freeing <u>Maya's</u> caged dopplegänger.**
+- ▼ **Throw:** after **Reveal**, the chair stands on hind legs, throwing **<u>Maya's</u>** cage (d8). The connected chain above whips and breaks the glass roof. Rain and glass crash down.
 
 
 # Epilogue
 
-**<u>The Bureau</u>** takes custody of the players. End with a interrogation question from an agent.
+**<u>The Bureau</u>** takes custody of the players. End with an interrogation question from an agent.
 
 
 # Links
@@ -238,5 +248,6 @@ Escape the island or take refuge in the lighthouse.
 - [Oubliette](https://codabool.itch.io/oubliette)
 - Monster art by [Roque Romero](https://roque-romero.itch.io)
 - Portraits by [Francisco Lemos](https://lemos.itch.io)
+- Cover page eye by [Strega Wolf](https://stregawolf.art)
 
 > Liminal Horror is copyright by Goblin Archives LLC
