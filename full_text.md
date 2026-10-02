@@ -214,7 +214,9 @@ Escape the island or take refuge in the lighthouse.
 
 <h2 class="npc-title">Marcus Price</h2>
 
-<figure class="npc-gallery"><div class="npc-image"><img src="marcus_real.webp" alt="Marcus Price's best self" loading="lazy" decoding="async"><span>Best self</span></div></figure>
+
+<figure class="npc-gallery npc-gallery-paired"><div class="npc-image"><img src="marcus_real.webp" alt="Marcus Price's best self" loading="lazy" decoding="async"><span>Best self</span></div><div class="npc-image"><img src="marcus_monster.webp" alt="Marcus Price's dopplegänger" loading="lazy" decoding="async"><span>Dopplegänger</span></div></figure>
+
 
 - ▼ **Entrance key** looped on his belt.
 - ▼ Use a latent <span class="red"><strong>transformation</strong></span>. First appears normal in a ornate chair, asking *"you feel the effects?"*.
