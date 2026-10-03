@@ -121,11 +121,11 @@ Escape the island or take refuge in the lighthouse.
 
 ## <span class="theme-icon" aria-hidden="true"><img class="theme-light" src="infirmary_title_black.webp" alt=""><img class="theme-dark" src="infirmary_title_white.webp" alt=""></span> Infirmary
 
-- ▼ This room disappears, leaving an endless pit.
+- ▼ This room **disappears**, leaving a pit
 
 ## <span class="theme-icon theme-icon-tall" aria-hidden="true"><img class="theme-light" src="cage_title_black.webp" alt=""><img class="theme-dark" src="cage_title_white.webp" alt=""></span> Yards
 
-- ▼ Bottomless pits. A **vertical** continuous conveyor of gibbets are in motion.
+- ▼ 	All become seemingly bottomless **pits**. A vertical continuous conveyor of gibbets are in motion.
 
 ## <span class="theme-icon" aria-hidden="true"><img class="theme-light" src="mess_hall_title_black.webp" alt=""><img class="theme-dark" src="mess_hall_title_white.webp" alt=""></span> Mess Hall
 
@@ -136,7 +136,7 @@ Escape the island or take refuge in the lighthouse.
 ## <span class="theme-icon" aria-hidden="true"><img class="theme-light" src="seclusion_title_black.webp" alt=""><img class="theme-dark" src="seclusion_title_white.webp" alt=""></span> Seclusion
 
 - ∆ **<u>Mouse's</u>** previous room, a chess set is on the bed.
-- ▼ **<u>Mouse's</u>'s dopplegänger** can optionally be released here. He is **nonviolent** and impossibly skinny. Sliding into the toilet upon viewing. d4 Stress.
+- ▼ **<u>Mouse's</u>'s dopplegänger** is here. He is **nonviolent** and impossibly skinny. Sliding into the toilet when seen (d4 Stress).
 
 ## <span class="theme-icon" aria-hidden="true"><img class="theme-light" src="admin_title_black.webp" alt=""><img class="theme-dark" src="admin_title_white.webp" alt=""></span> Admin
 
@@ -209,7 +209,7 @@ Escape the island or take refuge in the lighthouse.
 - ∆ Blinded to the risk of **<u>Dr. Rook's</u> treatment** by how much extra funding the ward will win if things go right.
 - ∆ Kept in the dark about Sacra Vita Nova.
 - ▼ Caged dopplegänger is a **nonviolent** ballerina. The top half of her head is a record player playing classical music.
-- ▼ When **<u>Marcus</u>** performs **Reveal**, her dopplegänger cage falls and releases her. She begins her routine.
+- ▼ When **<u>Marcus</u>** performs **Reveal**, her dopplegänger cage falls and breaks. Released, her dopplegänger begins her routine.
 
 <h2 class="npc-title">Father Julian</h2>
 
