@@ -52,9 +52,13 @@ The famous NYC Psychologist, **<u>Dr. Rook</u>** has purchased access to a Catho
 
 > If needed have a dopplegänger appear out of its cage to inflict Stress or to push players forward...No one wants to face themselves.
 
-<a href="https://lh26.codabool.com" target="_blank" rel="noopener noreferrer">character creation tables</a>
+## Character Creation
+<a href="https://lh26.codabool.com" target="_blank" rel="noopener noreferrer">Online Tables</a>
 
-> When creating characters, emphasize early that the players have been successfully treated for their mental illness. They are no longer compelled by it.
+> 1. <b>Roll for a mental illness.</b> Emphasize they've been successfully treated for their illness. <b>They're no longer compelled by it.</b>
+
+> 2. Ask everyone to <b>explain their First Encounter with the Unknown</b>
+
 
 # Intro
 
@@ -230,7 +234,7 @@ Escape the island or take refuge in the lighthouse.
 
 - ▼ **Entrance key** looped on his belt.
 - ▼ Has a latent <span class="red"><strong>transformation</strong></span>. First appears normal in a ornate chair, asking *"Who told you could leave your room?"*.
-- ▼ Interrupt the conversation with Maya shouting *"that's not Marcus!"*. Have **Marcus get upset and shoot her** and **frames the players.**
+- ▼ Interrupt the conversation with Maya shouting *"that's not Marcus!"*. Have **Marcus get upset, shoot her** and **frame the players.**
 - ▼ **The chair transforms** to have human hands for legs, which slowly elongate.
 - ▼ The chair reaches up 15ft and pulls them up into the dark by dangling chains. The back of the chair has a human face.
 - ▼ **Marcus holds a Gun (d8) and acts twice in a round.**
