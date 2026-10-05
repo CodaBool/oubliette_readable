@@ -187,7 +187,7 @@ Escape the island or take refuge in the lighthouse.
 
 <h2 class="npc-title">Mouse</h2>
 
-<figure class="npc-gallery"><div class="npc-image"><img src="mouse_real.webp" alt="Mouse's best self" loading="lazy" decoding="async"><span>Best self</span></div></figure>
+<figure class="npc-gallery"><div class="npc-image"><img src="mouse_real.webp" alt="Mouse's best self" loading="lazy" decoding="async"></div></figure>
 
 - ∆ Bipolar grandmaster chess player. Guilty of drug possession.
 - ∆ A month ago he was **<u>Dr. Rook's</u>** original test subject. Afterword he refused meals for 3 days resulting in being fed through a feeding tube.
@@ -207,7 +207,7 @@ Escape the island or take refuge in the lighthouse.
 
 <h2 class="npc-title">Maya Rosa</h2>
 
-<figure class="npc-gallery"><div class="npc-image"><img src="maya_real.webp" alt="Maya Rosa's best self" loading="lazy" decoding="async"><span>Best self</span></div></figure>
+<figure class="npc-gallery"><div class="npc-image"><img src="maya_real.webp" alt="Maya Rosa's best self" loading="lazy" decoding="async"></div></figure>
 
 - ∆ Head **nurse**, compassionate, obsessive and overworked.
 - ∆ Blinded to the risk of **<u>Dr. Rook's</u> treatment** by how much extra funding the ward will win if things go right.
