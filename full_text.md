@@ -220,7 +220,7 @@ Escape the island or take refuge in the lighthouse.
 <figure class="npc-gallery npc-gallery-paired"><div class="npc-image"><img src="julian_real.webp" alt="Father Julian's best self" loading="lazy" decoding="async"><span>Best self</span></div><div class="npc-image"><img src="julian_monster.webp" alt="Father Julian's dopplegänger" loading="lazy" decoding="async"><span>Dopplegänger</span></div></figure>
 
 - ∆ The authorized theurgist of Sacra Vita Nova.
-- ▼ <span class="red"><strong><u>Transforms</u></strong></span> **into a fullly mechanical iron maiden on wooden chariot wheels.**
+- ▼ <span class="red"><strong><u>Transforms</u></strong></span> **into a fully mechanical iron maiden on wooden chariot wheels.**
 - ▼ Heavy smoke fills the Room halls. **<u>Mouse</u> tries to convince <u>Father Julian</u> to reverse the rite and is decapitated.**
 - ▼ Swings the censor in a full 360 degrees. A sharp **pendulum (d8)** manifests around it. **Can be launched like a ball and chain.**
 - ▼ A metal hand gestures ICXC.
