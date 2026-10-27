@@ -1,0 +1,153 @@
+.iframe-layout {
+  --outline-width: 16rem;
+}
+
+.iframe-layout .page {
+  width: min(calc(100% - var(--outline-width) - 4rem), var(--page-width));
+  margin-left: calc(var(--outline-width) + 2rem);
+  margin-right: 2rem;
+  padding-top: 3rem;
+}
+
+@media (min-width: 1400px) {
+  .iframe-layout .page {
+    margin-left: max(
+      calc(var(--outline-width) + 2rem),
+      calc((100% - var(--page-width) + var(--outline-width)) / 2)
+    );
+  }
+}
+
+.iframe-layout .document :is(h1, h2) {
+  scroll-margin-top: 1.5rem;
+}
+
+.outline {
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: var(--outline-width);
+  padding: 1.5rem 0.75rem 3rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: var(--background);
+  border-right: 1px solid var(--border);
+  font-size: 0.9rem;
+  line-height: 1.3;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.outline ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.outline li {
+  margin: 0;
+}
+
+.outline a {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.6rem;
+  color: var(--muted);
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  border-radius: 0 4px 4px 0;
+}
+
+.outline a:hover {
+  color: var(--text);
+  background: var(--button-hover);
+}
+
+.outline a[aria-current] {
+  color: var(--text);
+  background: var(--button-hover);
+  border-left-color: var(--danger);
+}
+
+.outline a:focus-visible {
+  outline: 2px solid var(--danger);
+  outline-offset: -2px;
+}
+
+.outline-h1 > a {
+  margin-top: 0.5rem;
+  font-family: "Special Elite", Georgia, serif;
+  font-size: 1rem;
+}
+
+.outline-list > li:first-child > a {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.outline-h2 > a {
+  padding-left: 1.4rem;
+}
+
+/* Icons cloned from headings. */
+.outline .theme-icon,
+.outline .inline-theme-icon {
+  flex: none;
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: 0;
+}
+
+.outline .theme-icon img,
+.outline .inline-theme-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.outline-toggle {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .iframe-layout .page {
+    width: min(calc(100% - 2rem), var(--page-width));
+    margin: 0 auto;
+    padding-top: 4rem;
+  }
+
+  .outline {
+    width: min(85vw, var(--outline-width));
+    box-shadow: 0.5rem 0 1.5rem rgb(0 0 0 / 60%);
+    transform: translateX(-105%);
+    transition: transform 160ms ease;
+  }
+
+  .outline-open .outline {
+    transform: translateX(0);
+  }
+
+  .outline-toggle {
+    position: fixed;
+    z-index: 21;
+    top: 0.75rem;
+    right: 0.75rem;
+    display: block;
+    padding: 0.4rem 0.8rem;
+    color: var(--text);
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+
+  .outline-toggle:focus-visible {
+    outline: 2px solid var(--danger);
+    outline-offset: 2px;
+  }
+}

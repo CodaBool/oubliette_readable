@@ -3,7 +3,21 @@ import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
 import MarkdownIt from "markdown-it";
 
-const markdownPath = fileURLToPath(new URL("./full_text.md", import.meta.url));
+const defaultMarkdownPath = fileURLToPath(
+  new URL("./full_text.md", import.meta.url),
+);
+
+// HTML entry (by basename) -> markdown source. Anything unlisted uses full_text.md.
+const markdownPaths = {
+  "iframe.html": fileURLToPath(new URL("./iframe_text.md", import.meta.url)),
+};
+
+const watchedPaths = [defaultMarkdownPath, ...Object.values(markdownPaths)];
+
+function markdownPathFor(filename) {
+  const basename = filename.split(/[\\/]/).pop();
+  return markdownPaths[basename] || defaultMarkdownPath;
+}
 
 const markdown = new MarkdownIt({
   html: true,
@@ -43,13 +57,13 @@ export default function markdownPage() {
     name: "crown-end-markdown-page",
 
     buildStart() {
-      this.addWatchFile(markdownPath);
+      for (const path of watchedPaths) this.addWatchFile(path);
     },
 
     configureServer(server) {
-      server.watcher.add(markdownPath);
+      server.watcher.add(watchedPaths);
       server.watcher.on("change", (changedPath) => {
-        if (changedPath === markdownPath) {
+        if (watchedPaths.includes(changedPath)) {
           server.ws.send({ type: "full-reload" });
         }
       });
@@ -57,8 +71,8 @@ export default function markdownPage() {
 
     transformIndexHtml: {
       order: "pre",
-      async handler(html) {
-        const source = await readFile(markdownPath, "utf8");
+      async handler(html, context) {
+        const source = await readFile(markdownPathFor(context.filename), "utf8");
         const { content, data } = matter(source);
         const title = escapeHtml(data.title || "");
 
