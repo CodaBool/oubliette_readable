@@ -24,11 +24,11 @@ fonts:
 
 # What's Really Going On?
 
-The famous NYC Psychologist, **<u>Dr. Rook</u>** has purchased access to a Catholic rite, *Sacra Vita Nova*. He's using the Crown's End patients as test subjects despite the rite's infamy of conjuring sinner **dopplegängers**.
+The famous NYC Psychologist, **<u>Dr. Rook</u>** has purchased access to a Catholic rite, *Sacra Vita Nova*. As the medical director, he's using Crown's End patients as test subjects despite the rite's infamy of conjuring sinner **dopplegängers**.
 
 ## Treatment
 
-- ∆ Is it all just hallucinations? No, **the dopplegängers are real** and can be seen by anyone. They will disappear after 8 hours. **The threat to the player is real.**
+- ∆ Is it all just hallucinations? No, **the dopplegängers are real** and can be seen by anyone. They will disappear after 8 hours. **Their threat is real.**
 - ∆ **<u>Dr. Rook</u> has done this before.** A month ago, in the island's lighthouse he forced the *treatment* on a patient named **<u>Mouse</u>**. This resulted in the death of the ward's case manager, Gomez.
 - ∆ **<u>Dr. Rook</u>** is overconfident, claiming it was a *dosage issue* and covered it up as derangement on the part of **<u>Mouse</u>**.
 - ∆ In reality **the meds have no effect** and **<u>Marcus</u>**, the ward officer, shot **<u>Gomez</u>**.
@@ -51,13 +51,13 @@ The famous NYC Psychologist, **<u>Dr. Rook</u>** has purchased access to a Catho
 Everyone is seated in a circle for group therapy in the Class.
 
 
-Nurse **<u>Maya</u>**, is leading. The ward's only other patient **<u>Mouse</u>** is also present. She is playing a marketing video from **<u>Dr. Rook</u>**. In the video he says <i>Become your best self, escape the cage</i>. A brief scene shows catholic priests packing pills. The power cuts from the storm.
+Nurse **<u>Maya</u>**, is leading. The ward's only other patient **<u>Mouse</u>** is also present. She is playing a marketing video from **<u>Dr. Rook</u>**. In the video he says <i>"Become your best self, escape the cage"</i>. A brief scene shows catholic priests packing pills. The power cuts from the storm.
 
 **<u>Maya</u>** suggests an activity that requires no power.
 
 > Use the popup macro to show the rorschach
 
-After **<u>Maya</u>** enthusiastically asks everyone to assemble a line in the Activity Center for their medication.
+After, **<u>Maya</u>** enthusiastically asks everyone to assemble a line in the Activity Center for their medication.
 
 ## Medication
 
@@ -80,13 +80,13 @@ Once locked in their rooms. **<u>Father Julian</u>** performs the rite in the Cl
 > Sacra Vita Nova has begun
 
 > - ▼ **Father Julian and Marcus <span class="red"><u>transform</u></span>**
-> - ▼ **Room metal doors raise like stage curtains**
+> - ▼ **Cell Room metal doors raise like fabric stage curtains**
 > - ▼ **All ceilings ascend into darkness**
 > - ▼ **Gibbets hang in the silent darkness above all**
 
 ## Details
 
-- ∆ A hurricane made landfall. Most staff have already taken a boat to the mainland for the night.
+- ∆ A hurricane has made landfall. Most staff have already taken a boat to the mainland.
 - ∆ The island has a lighthouse and a dock.
 - ∆ In the 1930s tuberculosis treatment was sunlight. As a renovated sanatorium for consumption, most walls have windows with bars. The roof is also glass.
 - ∆ The ward is dark but every 20 seconds a sweeping light from the lighthouse goes by.
@@ -107,7 +107,7 @@ Once locked in their rooms. **<u>Father Julian</u>** performs the rite in the Cl
 
 ## <span class="theme-icon theme-icon-tall" aria-hidden="true"><img class="theme-light" src="cage_title_black.webp" alt=""><img class="theme-dark" src="cage_title_white.webp" alt=""></span> Yards
 
-- ▼ 	All become seemingly bottomless **pits**. A vertical continuous conveyor of gibbets are in motion.
+- ▼ 	All become seemingly bottomless wide **pits**. A vertical continuous conveyor of gibbets are in motion.
 
 ## <span class="theme-icon" aria-hidden="true"><img class="theme-light" src="mess_hall_title_black.webp" alt=""><img class="theme-dark" src="mess_hall_title_white.webp" alt=""></span> Mess Hall
 
